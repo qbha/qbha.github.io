@@ -61,8 +61,11 @@
   }
 /* 翻页按钮居中 */
 .pagination-wrap {
-  width: 100%;
-  margin: auto;
+  text-align: center;
+}
+
+.pagination {
+  display: inline-block;
 }
 
 /* 设置文字内容 :nth-child(1)的作用是选择第几个 */
