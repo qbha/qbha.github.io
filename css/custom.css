@@ -60,7 +60,7 @@
     border-radius: 8px;
   }
 /* 翻页按钮居中 */
-#pagination {
+.pagination-wrap {
   width: 100%;
   margin: auto;
 }
