@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>上传项目到github步骤</title>
+      <link href="/post/34ef27.html"/>
+      <url>/post/34ef27.html</url>
+      
+        <content type="html"><![CDATA[<p>前提：git安装完毕，github注册完毕，配置ssh-key完毕。</p><h3 id="首次提交"><a href="#首次提交" class="headerlink" title="首次提交"></a>首次提交</h3><h4 id="首先在github上创建一个新仓库"><a href="#首先在github上创建一个新仓库" class="headerlink" title="首先在github上创建一个新仓库"></a>首先在github上创建一个新仓库</h4><h4 id="建立本地仓库"><a href="#建立本地仓库" class="headerlink" title="建立本地仓库"></a>建立本地仓库</h4><p>首先进入项目目录中，执行下面指令进行初始化</p><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git init</span><br></pre></td></tr></table></figure><p>初始化后项目中会多一个隐藏文件夹.git</p><p>接着，将所有文件添加到仓库，执行下面指令</p><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git add .</span><br></pre></td></tr></table></figure><p>然后，把文件提交到仓库，双引号内是提交注释。执行下面指令</p><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git commit -m &quot;提交文件&quot;</span><br></pre></td></tr></table></figure><p>如此本次仓库建好了。</p><h4 id="关联github仓库"><a href="#关联github仓库" class="headerlink" title="关联github仓库"></a>关联github仓库</h4><p>复制仓库地址后，执行下面指令</p><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git remote add origin git@github.com:xxxxxx</span><br></pre></td></tr></table></figure><h4 id="上传本地代码"><a href="#上传本地代码" class="headerlink" title="上传本地代码"></a>上传本地代码</h4><p>执行下面代码</p><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git push -u origin main</span><br></pre></td></tr></table></figure><h3 id="拉取修改后提交"><a href="#拉取修改后提交" class="headerlink" title="拉取修改后提交"></a>拉取修改后提交</h3><h4 id="拉取代码，执行下面指令"><a href="#拉取代码，执行下面指令" class="headerlink" title="拉取代码，执行下面指令"></a>拉取代码，执行下面指令</h4><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git pull</span><br></pre></td></tr></table></figure><h4 id="修改代码，查看状态"><a href="#修改代码，查看状态" class="headerlink" title="修改代码，查看状态"></a>修改代码，查看状态</h4><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git status</span><br></pre></td></tr></table></figure><h4 id="提交代码"><a href="#提交代码" class="headerlink" title="提交代码"></a>提交代码</h4><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git add .</span><br><span class="line">git commit -m &quot;第一次修改增加一行&quot;</span><br><span class="line">git status   查看状态</span><br><span class="line">git push    提交代码到github</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> 教程 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> github </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>论文查重原理</title>
       <link href="/post/ab39cba6.html"/>
       <url>/post/ab39cba6.html</url>
